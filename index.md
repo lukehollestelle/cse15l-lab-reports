@@ -3,3 +3,5 @@
 **This text should be bold**
 
 ---
+
+Updating this text from vscode
