@@ -1,5 +1,7 @@
 **Lab Report 1 for week 2:**
+## Luke Hollestelle
 
+---
 *Installing VScode:*
 Click [here](https://code.visualstudio.com/) to visit the vscode website in
 order to download the desktop application.
@@ -13,7 +15,7 @@ If you are using Windows, you will first need to download [OpenSSH](https://docs
 Every CSE15L student has a course-specific account, which can be accessed [here](https://sdacs.ucsd.edu/~icc/index.php)
 Open the terminal, and type in:
 
-$ ssh cs15lwi22zzz@ieng6.ucsd.edu
+`$ ssh cs15lwi22zzz@ieng6.ucsd.edu`
 
 The 3 "z" characters in the adress will differ from student to student.
 
@@ -40,7 +42,7 @@ In the terminal, the commands print out as:
 
 You can move files over from your computer to a remote server using the scp command.
 
-$ scp FILENAMEHERE cs15lwi22zzz@ieng6.edu:~/
+`$ scp FILENAMEHERE cs15lwi22zzz@ieng6.edu:~/`
 
 This code will allow you to transfer whatever file is placed in the FILENAMEHERE
 slot to the remote server, which is the ucsd computers in this case.
@@ -66,7 +68,7 @@ client.
 
 The command to create an SSH key is:
 
-$ ssh-keygen
+`$ ssh-keygen`
 
 This should produce the following:
 
@@ -74,12 +76,12 @@ This should produce the following:
 
 Next, login to the remote server and type in the following code:
 
-$ mkdir .ssh
+`$ mkdir .ssh`
 
 This will make a new directory on the server.  After this,
 logout and type in:
 
-$ scp /Users/luke/.ssh/id_rsa.pub cs15lwi22aik@ieng6.ucsd.edu:~/.ssh/authorized_keys
+`$ scp /Users/luke/.ssh/id_rsa.pub cs15lwi22aik@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 Fill in the username and corresponding ID numbers in the above code if necessary,
 and you should be able to logon to the remote server now without using your password.
@@ -98,4 +100,3 @@ in quotation marks afterwards.  This will directly run it on the server, and the
 Notice how it takes me back to my current local directory after I type
 the "ls -a" command on the remote server.  This is helpful if you don't want
 to login and exit.
-
