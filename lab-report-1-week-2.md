@@ -2,14 +2,14 @@
 ## Luke Hollestelle
 
 ---
-*Installing VScode:*
+# *Installing VScode:*
 Click [here](https://code.visualstudio.com/) to visit the vscode website in
 order to download the desktop application.
 ![Image](vscodescreenshot.png)
 This screen should appear, and you can download by clicking on your
 operating system.
 
-*Remotely Connecting:*
+# *Remotely Connecting:*
 If you are using Windows, you will first need to download [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 Every CSE15L student has a course-specific account, which can be accessed [here](https://sdacs.ucsd.edu/~icc/index.php)
@@ -23,7 +23,7 @@ After logging in, you should see this screen, which means you are succesfully
 connected to the remote server:
 ![Image](sshscreenshot.png)
 
-*Trying some commands:*
+# *Trying some commands:*
 
 * "cd" changes the directory you are currently on
 * "cd ~" takes you to your home directory
@@ -38,7 +38,7 @@ In the terminal, the commands print out as:
 
 ![Image](runsomecommandsscreenshot.png)
 
-*Moving Files with scp:*
+# *Moving Files with scp:*
 
 You can move files over from your computer to a remote server using the scp command.
 
@@ -60,7 +60,7 @@ Ran from the remote server:
 Once we transfer files over to a remote server, we can run them
 using the same commands like javac and java on that server.
 
-*SSH Keys:*
+# *SSH Keys:*
 
 An SSH key creates a public and private key.  The public key is
 stored somewhere on the server, while the private key is stored in your
@@ -86,7 +86,7 @@ logout and type in:
 Fill in the username and corresponding ID numbers in the above code if necessary,
 and you should be able to logon to the remote server now without using your password.
 
-*Optimizing Remote Running:*
+# *Optimizing Remote Running:*
 
 Other ways to make running code on the remote server easier includes:
 * Using arrow keys to reuse old lines of code
