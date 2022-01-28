@@ -1,4 +1,4 @@
-**Lab Report 1 for week 2:**
+**Lab Report 2 for week 4:**
 ## Luke Hollestelle
 
 ---
