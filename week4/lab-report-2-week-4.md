@@ -6,7 +6,7 @@
 
 ![Image](firstdiff.png)
 
-[Link to First Test File](break-file.md)
+[Link to First Test File](https://github.com/lukehollestelle/cse15l-lab-reports/blob/main/week4/break-file.md)
 
 ![Image](firstsymptom.png)
 
@@ -18,7 +18,7 @@ The bug that was occurring was that if there were no paranthesis or brackets, th
 
 ![Image](seconddiff.png)
 
-[Link to Second Test File](break-file2.md)
+[Link to Second Test File](https://github.com/lukehollestelle/cse15l-lab-reports/blob/main/week4/break-file2.md)
 
 ![Image](secondsymptom.png)
 
@@ -30,7 +30,7 @@ Our code at this point would print out anything in parenthesis that came after a
 
 ![Image](thirddiff.png)
 
-[Link to Third Test File](test-file8.md)
+[Link to Third Test File](https://github.com/lukehollestelle/cse15l-lab-reports/blob/main/week4/test-file8.md)
 
 ![Image](thirdsymptom.png)
 
