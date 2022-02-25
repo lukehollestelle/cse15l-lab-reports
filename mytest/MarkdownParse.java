@@ -1,4 +1,5 @@
 package mytest;
+
 // File reading code from https://howtodoinjava.com/java/io/java-read-file-to-string-examples/
 import java.io.IOException;
 import java.nio.file.Files;
@@ -38,7 +39,6 @@ public class MarkdownParse {
                 toReturn.add(returnString);
             }
             currentIndex = closeParen + 1;
-            System.out.println(currentIndex);
         }
         return toReturn;
     }
